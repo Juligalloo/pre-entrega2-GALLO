@@ -1,0 +1,43 @@
+/*modificaciones body/generales */    
+
+.manoAnimada {
+    animation: animaciones infinite 2s ease-in-out; }
+  
+  .tituloPrincipal {
+    font-family: $fuente-titulos;
+    font-size: 5rem;
+    font-weight: 400;
+    letter-spacing: 0.7rem;
+    text-decoration: underline; }
+  
+  .subtitulos {
+    font-family: $fuente-subtitulos;
+    font-weight: 300;
+    font-size: 2.0rem;
+    letter-spacing: 0.5rem; }
+  
+  .copetes {
+    font-family: $fuente-copetes;
+    font-weight: 400;
+    font-size: 3.0rem; }
+  
+  .copetes2 {
+    font-family: $fuente-copetes;
+    font-weight: 400;
+    font-size: 1.5rem; }
+  
+  .miniTitulos {
+    font-family: $fuente-minititulos;
+    font-weight: 400;
+    font-size: 2.5rem; }
+  
+  .miniTitulos2 {
+    font-family: $fuente-minititulos;
+    font-weight: 400;
+    font-size: 1.5rem; }
+  
+  .parrafos {
+    font-family: $fuente-parrafos;
+    font-weight: 300;
+    font-size: 1.2rem; }
+

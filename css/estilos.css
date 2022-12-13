@@ -13,9 +13,6 @@
   100% {
     transform: translateY(0); } }
 
-.cuerpo {
-  background-image: linear-gradient(to right, #e3aadf, #e4a1d2, #e499c5, #e391b7, #e189a9, #d87fa1, #cf7499, #c66a91, #b35c8e, #9f4f8b, #884487, #6f3a84); }
-
 .manoAnimada {
   animation: animaciones infinite 2s ease-in-out; }
 
@@ -57,7 +54,6 @@
   font-weight: 300;
   font-size: 1.2rem; }
 
-/*modificaciones header*/
 .anclas {
   font-family: 'Langosta', cursiva;
   font-weight: 400;
@@ -66,6 +62,9 @@
 
 .anclas:hover {
   background: #c631b5; }
+
+.cuerpo {
+  background-color: pink; }
 
 /* modificaciones main productos*/
 .galeria {

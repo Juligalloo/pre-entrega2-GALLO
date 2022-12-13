@@ -1,119 +1,17 @@
-@import url('https://fonts.googleapis.com/css2? family= Island+Moments & family= Kanit:ital,wght@1,300 & family= Merriweather:ital@1 & family= Noto+Sans: peso@300 & mostrar=cambiar');
-
-* {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    font-size: 62, 5%;
-}
-
-@keyframes animaciones {
-    0% {transform: translateY(0);}
-    50% {transform: translateY(-25px);}
-    100% {transform: translateY(0);}
-}
+@import "variables";
+@import "reset";
+@import "maps";
+@import "mixins";
+@import "body";
+@import "header";
+@import "main";
+@import "footer"
 
 
 
-.cuerpo{
-    background-image: linear-gradient(to right, #e3aadf, #e4a1d2, #e499c5, 
-    #e391b7, #e189a9, #d87fa1, #cf7499, #c66a91, #b35c8e, #9f4f8b, #884487, #6f3a84);
-}
-
-.manoAnimada{
-    animation:animaciones infinite 2s ease-in-out
-    
-
-}
-
-.tituloPrincipal{
-    font-family: 'Island Moments', cursiva;
-    font-size: 5rem;
-    font-weight: 400;
-    letter-spacing: 0.7rem;
-    text-decoration: underline;
-}
-
-.subtitulos{
-    font-family: 'Kanit', sans-serif;
-    font-weight: 300;
-    font-size: 2.0rem;
-    letter-spacing: 0.5rem;
-}
-
-.copetes{
-    font-family: 'Crimson Text', serif;
-    font-weight: 400;
-    font-size: 3.0rem;
-
-}
-
-.copetes2{
-    font-family: 'Crimson Text', serif;
-    font-weight: 400;
-    font-size: 1.5rem;
-}
-
-.miniTitulos{
-    font-family: 'Dancing Script', cursiva;
-    font-weight: 400;
-    font-size: 2.5rem
-}
-
-.miniTitulos2{
-    font-family: 'Dancing Script', cursiva;
-    font-weight: 400;
-    font-size: 1.5rem;
-}
-
-.parrafos{
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 300;
-    font-size: 1.2rem;
-}
-
-/*modificaciones header*/
-
-.anclas{
-    font-family: 'Langosta', cursiva;
-    font-weight: 400;
-    font-size: 1.5rem;
-    transition-duration: 0.7s;
-}
-
-.anclas:hover {
-    
-    background: rgb(198, 49, 181);
-}
-
-
-    
 
 
 
-/* modificaciones main productos*/
 
-.galeria{
-    width: 50%;
-}
 
-.carousel-item{
-    height: 100vh;
-}
-
-.carousel-item img{
-    height: 100%;
-    object-fit: cover;
-}
-
-.imagenSahumerio{
-    transform: rotate(-90deg);
-    
-}
-
-.tituloCards{
-    font-family: 'Satisfacer', cursiva;
-    font-weight: 300;
-    font-size: 1.5rem;
-}
 
