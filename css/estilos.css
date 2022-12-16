@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2? family= Island+Moments & family= Kanit:ital,wght@1,300 & family= Merriweather:ital@1 & family= Noto+Sans: peso@300 & mostrar=cambiar");
 * {
   margin: 0%;
   padding: 0%;
@@ -13,74 +12,3 @@
   100% {
     transform: translateY(0); } }
 
-.manoAnimada {
-  animation: animaciones infinite 2s ease-in-out; }
-
-.tituloPrincipal {
-  font-family: 'Island Moments', cursiva;
-  font-size: 5rem;
-  font-weight: 400;
-  letter-spacing: 0.7rem;
-  text-decoration: underline; }
-
-.subtitulos {
-  font-family: 'Kanit', sans-serif;
-  font-weight: 300;
-  font-size: 2.0rem;
-  letter-spacing: 0.5rem; }
-
-.copetes {
-  font-family: 'Crimson Text', serif;
-  font-weight: 400;
-  font-size: 3.0rem; }
-
-.copetes2 {
-  font-family: 'Crimson Text', serif;
-  font-weight: 400;
-  font-size: 1.5rem; }
-
-.miniTitulos {
-  font-family: 'Dancing Script', cursiva;
-  font-weight: 400;
-  font-size: 2.5rem; }
-
-.miniTitulos2 {
-  font-family: 'Dancing Script', cursiva;
-  font-weight: 400;
-  font-size: 1.5rem; }
-
-.parrafos {
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: 300;
-  font-size: 1.2rem; }
-
-.anclas {
-  font-family: 'Langosta', cursiva;
-  font-weight: 400;
-  font-size: 1.5rem;
-  transition-duration: 0.7s; }
-
-.anclas:hover {
-  background: #c631b5; }
-
-.cuerpo {
-  background-color: pink; }
-
-/* modificaciones main productos*/
-.galeria {
-  width: 50%; }
-
-.carousel-item {
-  height: 100vh; }
-
-.carousel-item img {
-  height: 100%;
-  object-fit: cover; }
-
-.imagenSahumerio {
-  transform: rotate(-90deg); }
-
-.tituloCards {
-  font-family: 'Satisfacer', cursiva;
-  font-weight: 300;
-  font-size: 1.5rem; }
